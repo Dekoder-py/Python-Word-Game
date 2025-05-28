@@ -18,3 +18,12 @@ lamb
 lion
 cheetah
 cancel
+apple
+banana
+grapple
+race
+track
+tracker
+year
+week
+life
