@@ -13,7 +13,7 @@ word = words[randint(0,len(words))]
 word = word.lower().strip()
 
 print("Welcome to the word game! Guess the word!")
-print(f"The word to guess is {len(words)} letters long.")
+print(f"The word to guess is {len(word)} letters long.")
 print("You have 5 guesses.")
 
 for i in range(5):
