@@ -11,14 +11,16 @@ with open('word-list.txt', 'r') as file:
 
 word = words[randint(0,len(words))]
 word = word.lower().strip()
-print(word)
 
 print("Welcome to the word game! Guess the word!")
 print(f"The word to guess is {len(words)} letters long.")
 print("You have 5 guesses.")
 
 for i in range(5):
-    guess = input(f"Enter your guess ({i}/5)")
+    guess = input(f"Enter your guess ({i}/5): ")
+    while len(guess) == 0:
+        print("Please type a guess!")
+        guess = input(f"Enter your guess ({i}/5): ")
     if guess.lower().strip() == word:
         print(f"You got it! The word was {word}.")
         break
