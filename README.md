@@ -2,7 +2,8 @@
 
 ## Playing
 Install python 3 (python.org)
+
 Run the game: 
-```python
+```bash
 python3 app.py
 ```
